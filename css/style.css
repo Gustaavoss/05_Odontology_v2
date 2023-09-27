@@ -138,6 +138,38 @@ div.cellphone span{
 }
 /*Header*/
 
+/*Sessao diferenciais*/
+
+section.diferenciais{
+    padding: 40px 0;
+}
+section.diferenciais > .container{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.diferencial-single{
+    width: 33.33%;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.diferencial-single img{
+    max-width: 100%;
+}
+.diferencial-single h2{
+    margin: 20px 0;
+    font-size: 27px;
+    font-weight: normal;
+}
+.diferencial-single h2 > b{
+    color:#7dd5b0;;
+}
+.diferencial-single p{
+    color: #2d2d2d;
+    font-size: 15px;
+}
+
+
 /*mobile*/
 @media screen and (max-width: 924px){
     .nav-desktop,
@@ -150,6 +182,10 @@ div.cellphone span{
     }
     .content-header .two img{
        display: none;
+    }
+    .diferencial-single{
+        width: 100%;
+        text-align: center;
     }
 
 }
