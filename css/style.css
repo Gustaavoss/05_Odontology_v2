@@ -18,7 +18,7 @@ body{
     padding: 0 2%;
     margin: 0 auto;
 }
-
+/**/
 /*Header*/
 section.header-master{
     width: 100%;
@@ -136,7 +136,7 @@ div.cellphone span{
     width: 50%;
     border: 15px solid rgba(0, 0, 0, 0);
 }
-/*Header*/
+/**/
 
 /*Sessao diferenciais*/
 
@@ -168,6 +168,227 @@ section.diferenciais > .container{
     color: #2d2d2d;
     font-size: 15px;
 }
+/**/
+
+/*sessao sobre*/
+.sobre > .container{
+    max-width: 1280px;
+}
+.sobre-container{
+    float: left;
+    width: 50%;
+}
+.sobre-container img{
+    width: 100%;
+    border-radius: 10%;
+   
+}
+.sobre-container h2{
+   font-size: 30px;
+   color: #a9c4b8;
+   margin: 10px 0;
+   font-weight: normal;
+
+}
+.sobre-container p{
+    font-size: 15px;
+}
+.sobre-container b{
+    color: #509d87;
+}
+.padcontainer{
+    padding: 10px 50px;
+}
+/**/
+/*sessao depoimento*/
+section.depoimento{
+    width: 100%;
+    padding-top: 240px;
+    padding-bottom: 200px;
+    background-image: url('/images/bg_01.png');
+    background-size: cover;
+    color: #2d2d2d;
+}
+.depoimento h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+.depoimento p{
+    text-align: center;
+    font-size: 15px;
+    padding: 30px 0;
+}
+/**/
+
+/*section etapas*/
+section.etapas{
+    padding: 40px 0;
+}
+section.etapas > .container{
+    width: 1280px;
+}
+.etapas h2{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+.etapas h2 b{
+    color: #3b3e42;
+}
+.etapas__single{
+    float: left;
+    width: 50%;
+}
+.etapas__group img{
+    max-width: 90%;
+    float: left;
+}
+.etapas__group p{
+    float: left;
+    color: #509d87;
+    padding-left: 150px;
+    margin-bottom: 30px;
+   
+}
+/*etapas 2*/
+.etapas-group2 .circle{
+    width: 101px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #CCC;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+.circle span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #7dd5b0;
+}
+.etapas-group2{
+    margin-bottom: 40px;
+}
+.group2__descricao{
+    width: calc(100% - 50px);
+    padding: 10px 20px;
+}
+.group2__descricao h3{
+    color: #03ca9f;
+    font-size: 19px;
+}
+.group2__descricao p{
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 14px;
+}
+.line{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 40px;
+    width: 1px;
+    border: 1px solid black;
+
+}
+/**/
+/*diferencas*/
+section.diferencas > .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    text-align: center;
+}
+.diferencas-single{
+    padding: 30px 0;
+    width: 50%;
+}
+.diferencas-single h2,
+.item-diferencas1 span{
+    color: #a9c4b8;
+}
+.diferencas-single h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.item-diferencas1 {
+    margin-top: 10px;
+}
+
+.item-diferencas1 span{
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: line-through;
+}
+.item-diferencas2{
+   margin-top: 10px;
+}
+.item-diferencas2 span{
+    color: #7dd5b0;
+    font-weight: bold;
+    font-size: 21px;
+}
+/**/
+/*contato*/
+section.contato{
+    padding: 40px 10px;
+    background-color: #98fcde;
+}
+.contato h2{
+    text-align: center;
+    font-size: 30px;
+    color: #509d87;
+    padding: 10px 0;
+}
+.contato p{
+    font-size: 15px;
+    padding: 8px 0;
+    color: #509d87;
+}
+section.contato .form-group{
+    margin-top: 10px;
+}
+section.contato input[type=text],
+section.contato input[type=email]{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    outline: 0;
+}
+section.contato textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding-left: 18px;
+    padding-top: 10px;
+    resize: none;
+}
+section.contato input[type=submit]{
+    width: 290px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #0ed2a7;
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+/*footer*/
+footer{
+    padding: 20px 0;
+    background-color: #6cc5b2;
+    text-align: center;
+}
 
 
 /*mobile*/
@@ -185,6 +406,36 @@ section.diferenciais > .container{
     }
     .diferencial-single{
         width: 100%;
+        text-align: center;
+    }
+    .sobre-container{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sobre-container img{
+        width: 350px;
+        height: 200px;
+    }
+    .padcontainer{
+        padding: 0;
+    }
+    section.etapas > .container{
+        width: 100%;
+    }
+    .etapas__single{
+        width: 100%;
+    }
+    .etapas__group img{
+        display: none;
+    }
+    .etapas__group p{
+        display: none;
+    
+    }
+    /*etapas 2*/
+    .etapas-group2{
+        margin-bottom: 40px;
         text-align: center;
     }
 
