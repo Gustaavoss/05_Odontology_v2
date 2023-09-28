@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +13,17 @@
     <title>Projeto 12 odonto moderno</title>
 </head>
 <body>
+    <ul class="nav-desktop">
+        <li><span></span><a href="#">Invisalign</a></li>
+        <li><span></span><a href="#"><a href="">Benefícios</a></li>
+        <li><span></span><a href="#"><a href="">Serve Para Mim</a></li>
+        <li><span></span><a href="#"><a href="">Contato</a></li>
+    </ul><!--ul-->
     <section class="header-master">
         <header>
             <div class="container">
                 <div class="logo"></div>
-                <nav class="nav-desktop">
+                <nav class="desktop">
                     <ul>
                         <li class="selected"><span></span><a href="#">Invisalign</a></li>
                         <li><span></span><a href="#"><a href="">Benefícios</a></li>
@@ -24,6 +31,12 @@
                         <li><span></span><a href="#"><a href="">Contato</a></li>
                     </ul><!--ul-->
                 </nav><!--nav Desktop-->
+
+                <nav class="mobile">
+                    <h3><i class="fa-solid fa-bars"></i></h3>
+                    
+                </nav><!--nav-mobile-->
+
                 <div class="cellphone">
                     <span>(48)98882-6673</span>
                 </div><!--cellphone-->
@@ -221,7 +234,7 @@
 
     <section class="diferencas">
         <div class="container">
-            <div class="diferencas-single">
+            <div class="diferencas-single" style="border-right: 1px solid #ccc;">
                 <H2>Tradicional</H2>
                 <div class="item-diferencas1">
                 <span>Aparelho Fixo</span>
